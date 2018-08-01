@@ -27,7 +27,7 @@ public class AlgorithmComparison {
 
 		// Put master key in map.
 		masterKey = getRandomString();
-		System.out.println(masterKey);
+		System.out.println("Master Key: " + masterKey);
 		map.put(masterKey, masterKey);
 
 		// Finish filling map with random strings.
